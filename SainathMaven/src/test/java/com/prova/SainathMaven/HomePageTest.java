@@ -128,6 +128,10 @@ public class HomePageTest extends TestData
 		{
 			System.out.println("----All the 4 Header elements Verified---");
 		}
+		else
+		{
+		System.out.println("----All the 4 Header elements could not be Verified---");
+		}
 
 	}
 	

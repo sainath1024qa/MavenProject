@@ -90,6 +90,11 @@ public class HomePageTest extends TestData
 		{
 			System.out.println("Page loaded, Tutorials menu item found");
 		}
+		else
+		{
+		System.out.println("Page loaded, Tutorials menu item not found");
+		}
+		
 	}
 	
 	

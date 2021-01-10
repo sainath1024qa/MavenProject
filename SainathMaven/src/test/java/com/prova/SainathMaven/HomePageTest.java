@@ -82,7 +82,10 @@ public class HomePageTest extends TestData
 	{
 		driver.navigate().to("https://www.geeksforgeeks.org/");
 		WebElement e=driver.findElement(By.cssSelector("div.header-main__container li:nth-of-type(1)"));
+		System.out.println("Found the element-getting text");
 		String s=e.getText();
+		System.out.println("Found the element-text acquired");
+
 		if(s.contains("Tutorials"))//   compareToIgnoreCase("tutorials")==0) 
 		{
 			System.out.println("Page loaded, Tutorials menu item found");
